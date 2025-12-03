@@ -1,0 +1,24 @@
+<view>
+
+  <swiper indicator-dots="true"
+  autoplay="true" interval="3000" duration="1500" vertical="{{false}}" circular="true">
+    <swiper-item>
+      <image src="/images/post/bl.png"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/post/cat.png"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/post/crab.png"/>
+    </swiper-item>
+   </swiper>
+   
+   <import src="post-item/post-item-tpl.wxml" />
+   <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+     <template is="postItemTpl" data="{{...item}}" />
+    </view>
+</block>
+
+
+</view>

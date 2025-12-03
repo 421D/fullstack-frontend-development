@@ -1,0 +1,23 @@
+<template name="postItemTpl">
+<view class="post-container">
+    <!--post-author-date作者和日期-->
+    <view class="post-author-date">
+    <image src="{{avatar}}"></image>
+    <text>{{date}}</text>
+    </view>
+    <!--post-title文章标题-->
+    <text class="post-title">{{title}}</text>
+    <image class="post-image" src="{{postImg}}" mode="scaleToFill"></image>
+    <!--post-content:文章内容-->
+    <text class="post-content">{{content}}</text>
+    <!--post-like:评论收藏及点赞-->
+    <view class="post-like">
+    <image src="/images/icon/view.png"></image>
+    <text>{{collectionNum.array[0]}}</text>
+    <image src="/images/icon/share.png"></image>
+    <text>{{readingNum}}</text>
+    <image src="/images/icon/collection.png"></image>
+    <text>{{conmmentNum}}</text>
+    </view>
+  </view>
+  </template>

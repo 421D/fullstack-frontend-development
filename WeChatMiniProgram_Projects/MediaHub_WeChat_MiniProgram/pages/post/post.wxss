@@ -1,0 +1,12 @@
+@import"post-item/post-item-tpl.wxss";
+page{
+  background: #517c63;
+}
+swiper{
+  width: 100%;
+  height: 450rpx
+}
+swiper-item image{
+  width:100%;
+  height: 450rpx;
+}

@@ -1,0 +1,7 @@
+<view class="container">
+<image class="avatar" src="/images/avatar/1.png"></image>
+<text class="motto">Hello </text>
+<view catchtap="onTapJump" class="journey-container">
+<text class="journey">点击进入</text>
+</view>
+</view>

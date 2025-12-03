@@ -1,0 +1,9 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "文章",
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "left"
+  }
+}
